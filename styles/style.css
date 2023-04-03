@@ -1,0 +1,56 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+header {
+  height: 100px;
+}
+
+main {
+  background-color: #eee;
+  min-height: 80vh;
+  width: 100%;
+  max-width: 1070px;
+  display: flex;
+  padding: 20px;
+  border-radius: 10px;
+}
+main .content {
+  min-width: 200px;
+  flex: 1;
+}
+main aside {
+  width: 200px;
+  color: #333;
+  padding: 10px;
+  border: 1px dotted #999;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+main aside .aside-container {
+  min-height: 50vh;
+  flex: 1;
+}
+main aside footer {
+  min-height: 100px;
+  color: #fff;
+  font-size: 0.8em;
+  background-color: #333;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+footer {
+  height: 60px;
+}/*# sourceMappingURL=style.css.map */
